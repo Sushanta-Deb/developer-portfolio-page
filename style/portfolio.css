@@ -1,0 +1,23 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+}
+.text-primary{
+    color: #FD6E0A;;
+}
+nav ul{
+    display: flex;
+}
+nav ul > li{
+    margin-right: 50px;
+    list-style: none;
+}
+ul li a{
+    color: #474747;
+    text-decoration: none;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+}
