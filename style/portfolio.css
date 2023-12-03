@@ -3,12 +3,20 @@ body{
 }
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
 }
 .text-primary{
     color: #FD6E0A;;
 }
+nav h3{
+    font-size: 45px;
+    font-weight: 800;
+}
 nav ul{
     display: flex;
+    align-items: center;
 }
 nav ul > li{
     margin-right: 50px;
@@ -20,4 +28,9 @@ ul li a{
 }
 .btn-primary{
     background-color: #FD6E0A;
+    border: 0;
+    padding: 12px 25px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
 }
